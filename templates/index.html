@@ -1,0 +1,62 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Главная страница
+{% endblock %}
+
+{% block body %}
+<div class="container">
+<div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+      <h1 class="display-4 fw-normal">Наши путешествия</h1>
+      <p class="fs-5 text-muted">Администрация не несёт ответственности за ваше здоровье</p>
+</div>
+<main>
+    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Прошедшие</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">Чистим последний снег<small class="text-muted fw-light"></small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>10 фото</li>
+              <li>2 отзыва</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary">Посмотреть</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">На этой неделе</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">Высадка картофеля<small class="text-muted fw-light"></small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>заезд в 5.00</li>
+              <li>отъезд в 23.00</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-primary">Присоединится</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Предстоящие</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">Рыбалка июньская<small class="text-muted fw-light"></small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>с собой иметь удочку</li>
+              <li>выезд 30 июня</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-primary">Детали</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main></div>
+{% endblock %}
